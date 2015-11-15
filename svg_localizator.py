@@ -14,5 +14,8 @@ def parseNode(node):
         parseNode(item)
     print node.text
 
-    
+
 parseNode(root)
+
+#http://stackoverflow.com/questions/17437103/replacing-xml-element-in-python
+#tree.write('output.xml')
